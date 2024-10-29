@@ -11,3 +11,30 @@
   * JavaScript
   * React
   * Git
+# Code Examples
+
+```javascript
+function isValidIP(str) {
+let arr = str.split(".").map((item) => {
+return !isNaN(item) && !isNaN(parseFloat(item));
+    });
+    if (arr.length !== 4) {
+        return false;
+    }
+    return str
+        .split(".")
+        .map((item) => +item)
+        .every((item) => item > 0 && item <= 255);
+}
+```
+ # Education 
+ * Institute of Entrepreneurial Activity
+   - Сommercial activity
+* Udemy
+  - [HTML/CSS](https://www.udemy.com/course/webdeveloper)
+  - [JavaScript(React)](https://www.udemy.com/course/javascript_full)
+  - [TypeScript](https://www.udemy.com/course/modern_typescript)
+ 
+ # Language 
+ * **Russian** - native
+ * **English** - A2
