@@ -1,1 +1,1 @@
-# [CV](https://Garted.github.io/rsschool-cv/cv)
+# [CV](https://Garted.github.io/rsschool-cv/)
